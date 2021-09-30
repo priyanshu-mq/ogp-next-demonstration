@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { getAllPostsWithSlug, getPost } from "./lib/api"
+import { getAllPostsWithSlug, getPost } from "../lib/api"
 import { useRouter } from "next/router"
 
 const Post = ({ postData }) => {

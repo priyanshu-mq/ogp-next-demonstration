@@ -1,5 +1,5 @@
 import React from "react"
-import { getAllPosts } from "./lib/api"
+import { getAllPosts } from "../lib/api"
 import Head from "next/head"
 import Link from "next/link"
 
