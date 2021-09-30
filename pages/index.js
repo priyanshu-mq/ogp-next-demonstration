@@ -5,16 +5,43 @@ const Home = ({ photo }) => {
   return (
     <div>
       <Head>
-        <title>Social Media Preview</title>
-        <meta property="og:url" content="" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={photo?.title} />
-        <meta name="twitter:card" content="summary" />
+        <title>Index Meta Test Title</title>
+
+        <meta
+          name="description"
+          content="index meta test desc"
+          key="description"
+        />
+
+        <meta
+          property="og:title"
+          key="og-title"
+          content="index meta test Title"
+        />
         <meta
           property="og:description"
-          content="Hurray!! Yes Social Media Preview is Working"
+          key="og-description"
+          name="description"
+          content="index meta test desc"
         />
-        <meta property="og:image" content={photo?.url} />
+
+        <meta
+          property="og:url"
+          key="og-url"
+          content="https://swaneesoft.com/"
+        />
+
+        {/* twitter cards */}
+        <meta
+          name="twitter:title"
+          key="twitter_title"
+          content="index Test Twitter"
+        />
+        <meta
+          name="twitter:description"
+          key="twitter_description"
+          content="index Test Desc Twitter"
+        />
       </Head>
       <h1 style={{ fontSize: "40px", marginBottom: "24px" }}>{photo?.title}</h1>
       <Link href="/about">
@@ -22,6 +49,9 @@ const Home = ({ photo }) => {
       </Link>
       <Link href="/contact">
         <a style={{ marginLeft: "12px" }}>Contact Us</a>
+      </Link>
+      <Link href="/blogs">
+        <a style={{ marginLeft: "12px" }}>Blogs</a>
       </Link>
     </div>
   )
