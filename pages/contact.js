@@ -24,7 +24,10 @@ const Contact = () => {
           name="description"
           content="is leading mobile apps and enterprise web app development company and providing solutions across 40+ countries globally."
         />
-        <meta property="og:image" content="../public/image.png" />
+        <meta
+          property="og:image"
+          content="https://blog.multiqos.com:8443/wp-content/uploads/2021/01/site-preview.jpg"
+        />
         <meta property="og:url" key="og-url" content="" />
 
         {/* twitter cards */}
