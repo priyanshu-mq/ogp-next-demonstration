@@ -41,14 +41,9 @@ const Post = ({ postData }) => {
         <meta
           property="og:description"
           key="og-description"
-          name="description"
           content={postData.seo.metaDesc}
         />
-        <meta
-          property="og:url"
-          key="og-url"
-          content={`https://swaneesoft.com${router.asPath}`}
-        />
+        <meta property="og:url" key="og-url" content="" />
 
         {/* twitter cards */}
 

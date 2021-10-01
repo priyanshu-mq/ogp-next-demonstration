@@ -25,14 +25,9 @@ const Blogs = ({ allPosts: { edges } }) => {
         <meta
           property="og:description"
           key="og-description"
-          name="description"
           content="On the MultiQoS blog, Get the latest insights on Mobile app development, eCommerce market, UI/UX design, website design & development trends & much more."
         />
-        <meta
-          property="og:url"
-          key="og-url"
-          content="https://multiqos.com/blogs/"
-        />
+        <meta property="og:url" key="og-url" content="" />
 
         {/* twitter cards */}
 

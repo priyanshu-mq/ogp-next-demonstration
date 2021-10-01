@@ -17,11 +17,6 @@ class MyDocument extends Document {
           {/* og */}
           <meta property="og:locale" key="og_locale" content="en_US" />
           <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            key="og-url"
-            content="https://swaneesoft.com/"
-          />
           <meta property="og:site_name" key="og-site_name" content="MultiQoS" />
           <meta
             property="og:image"

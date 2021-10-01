@@ -21,7 +21,6 @@ const Home = ({ photo }) => {
         <meta
           property="og:description"
           key="og-description"
-          name="description"
           content="index meta test desc"
         />
 
